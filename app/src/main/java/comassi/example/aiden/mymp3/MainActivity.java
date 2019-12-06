@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //음악파일의 내용이 리스트에 들어옴
         getMusicList();
 
+        Log.d("start"," 작업시작");
+
         //데이터 관련
         res = getContentResolver();
         mediaPlayer = new MediaPlayer();
